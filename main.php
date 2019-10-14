@@ -1,6 +1,6 @@
 <?php
 const PORT = 'port';
-function _get_cli_params($cli_params, $default_port='9000-9001-9008-9010'){
+function _get_cli_params($cli_params, $default_port='9008-9010'){
 	$params = [];
 	if(count($cli_params) <= 1){
 		$params[PORT] = $default_port;
